@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/netflix-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 6rem;
+}
+
+nav img {
+    width: 8rem;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: calc(100% - 6rem);
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(61, 61, 61);
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 500;
+    font-family: 'Martel Sans', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgba(129, 129, 130, 0.3);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 3px 24px;
+}
+
+.main input {
+    font-size: 16px;
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+}
+
+.first {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+    max-width: 70vw;
+    margin: auto;
+    /* flex-wrap: wrap; */
+}
+
+
+.firstSecText {
+    display: flex;
+    flex-direction: column;
+    padding: 28px 0px;
+   
+}
+
+.firstSecText> :first-child {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.firstSecText> :last-child {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg>img {
+    width: 459px;
+    position: relative;
+    top: 8rem;
+    left: 4rem;
+    z-index: 10;
+}
+
+.secImg>video {
+    width: 21rem;
+    height: 12rem;
+    position: relative;
+    left: 7.8rem;
+    bottom: 9.5rem;
+}
+
+.second {
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 70vw;
+    margin: auto;
+    /* flex-wrap: wrap; */
+}
+
+.secSecImg>img {
+    max-width: 35vw;
+    margin: auto;
+}
+
+.over-mobile {
+    max-width: 22vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 8rem;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+}
+
+.over-mobile>img {
+    width: 4rem;
+    padding: 5px;
+}
+
+.under-mobile> :first-child {
+    font-weight: 600;
+
+}
+
+.under-mobile> :last-child {
+    font-size: 14px;
+    color: #0071eb;
+}
+
+.over-mobile>video {
+    width: 4rem;
+}
+
+.imgvideo>img {
+    width: 460px;
+    position: relative;
+    top: 8rem;
+    left: 4rem;
+    z-index: 10;
+}
+
+.imgvideo>video {
+    /* border: 1px solid red; */
+    width: 18rem;
+    height: 10rem;
+    position: relative;
+    left: 9.3rem;
+    bottom: 12rem;
+}
+
+.fourth {
+    gap: 6rem;
+}
+
+.fourth img {
+    max-width: 30vw;
+}
+
+.faq {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* height: 70vh; */
+}
+
+.faq > h2 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faq > .lastSec {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(57, 56, 56, 0.925);
+    color: white;
+    padding: 0 10px;
+    width: 70vw;
+    margin: auto;
+    transition: all 1s ease-out;
+}
+
+.faq > .lastSec:hover {
+    background-color: rgb(65,65,65);
+}
+.faq > .lastSec > p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.faq > p {
+    text-align: center;
+    margin-top: 3rem;
+   
+}
+
+.faq > .hero-btns {
+    margin-bottom: 4rem;
+}
+.faq > .hero-btns > input {
+    font-size: 16px;
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+}
+footer {
+    max-width: 60vw;
+    margin: auto;
+    font-family: 'Martel Sans', sans-serif;
+    padding: 14px;
+    height: 26rem;
+}
+footer > span {
+    display: inline-block;
+    color: white;
+    /* margin: 2px 12vw 2px 0; */
+    font-size: 16px;
+    font-weight: 400;
+    padding: 29px 7px;
+}
+
+span > .sub-span {
+    text-decoration: underline;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px;
+    height: 25vh;
+    gap: 23px;
+}
+
+.footer-item {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+footer div a {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-btn {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    max-width: 8vw;
+    height: 5vh;
+    border-radius: 5px;
+    /* margin: 20px 0; */
+}
+
+.last {
+    margin-top: 1rem;
+    color: whitesmoke;
+}

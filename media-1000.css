@@ -1,0 +1,39 @@
+
+@media only screen and (max-width: 1000px) {
+    .first {
+        flex-wrap: wrap;
+    }
+    .firstSecText {
+        align-items: center;
+    }
+    .firstSecText> :last-child {
+        font-size: 18px;
+        text-align: center;
+    }
+    .second {
+        flex-wrap: wrap;
+    }
+    .firstSecText> :first-child {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .firstSecText> :last-child {
+        font-size: 18px;
+    }
+    
+    .under-mobile> :first-child {
+        font-weight: 500;
+        font-size: 12px;
+    
+    }
+    
+    .under-mobile> :last-child {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .over-mobile>img {
+        width: 3.4rem;
+        padding: 8px;
+    } 
+}
